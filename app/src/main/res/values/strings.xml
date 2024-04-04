@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">HelloWorldCompose</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_text">TextActivity</string>
+    <string name="title_activity_styling_text">StylingTextActivity</string>
+    <string name="title_activity_syling_text">SylingTextActivity</string>
+    <string name="title_activity_text_component">TextComponentActivity</string>
+</resources>
