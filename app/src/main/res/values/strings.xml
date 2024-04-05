@@ -5,4 +5,5 @@
     <string name="title_activity_styling_text">StylingTextActivity</string>
     <string name="title_activity_syling_text">SylingTextActivity</string>
     <string name="title_activity_text_component">TextComponentActivity</string>
+    <string name="title_activity_columns_rows_main">ColumnsRowsMainActivity</string>
 </resources>

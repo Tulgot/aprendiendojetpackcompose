@@ -26,7 +26,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.layoutId
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.firstapp.ui.theme.HelloWorldComposeTheme
+import com.example.firstapp.ui.ui.theme.HelloWorldComposeTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -96,6 +96,13 @@ fun layout(){
                     colors = ButtonDefaults.buttonColors(Color(0xFFFFEB3B))
                 ) {
                     Text(text = "TextComponent", color= Color.Black)
+                }
+                Button(onClick = {
+                    mContext.startActivity(Intent(mContext, ColumnsRowsMainActivity::class.java))
+                },
+                    colors = ButtonDefaults.buttonColors(Color(0xFF00BCD4)),
+                ) {
+                    Text(text = "Colums/Rows", color= Color.Black)
                 }
             }
         }

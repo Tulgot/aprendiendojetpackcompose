@@ -13,6 +13,11 @@
         android:theme="@style/Theme.HelloWorldCompose"
         tools:targetApi="31">
         <activity
+            android:name="com.example.firstapp.ui.ColumnsRowsMainActivity"
+            android:exported="false"
+            android:label="@string/title_activity_columns_rows_main"
+            android:theme="@style/Theme.HelloWorldCompose" />
+        <activity
             android:name="com.example.firstapp.ui.TextComponentActivity"
             android:exported="false"
             android:label="@string/title_activity_text_component"
