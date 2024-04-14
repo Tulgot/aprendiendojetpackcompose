@@ -104,6 +104,13 @@ fun layout(){
                 ) {
                     Text(text = "Colums/Rows", color= Color.Black)
                 }
+                Button(onClick = {
+                    mContext.startActivity(Intent(mContext, TextMaterial3Activity::class.java))
+                },
+                    colors = ButtonDefaults.buttonColors(Color(0xFF673AB7)),
+                ) {
+                    Text(text = "Text Material3", color= Color.Black)
+                }
             }
         }
     }
